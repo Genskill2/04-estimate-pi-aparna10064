@@ -33,7 +33,7 @@ float wallis_pi(int n)
     float a = (4.0*i*i)/((4.0*i*i) - 1);
     pro = pro*a;
   }
-   pi = 2*a;
+   pi = 2*pro;
   return pi;
 }
 
